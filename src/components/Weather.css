@@ -75,4 +75,71 @@
 .weather-data .col img{
     width: 26px;
     margin-top: 10px;
+}  
+
+/* MOBILE STYLES */
+@media (max-width: 480px) {
+
+  .weather {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  /* Search Bar */
+  .search-bar {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 0.5rem;
+  }
+
+  .search-bar input {
+    flex: 1;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .search-bar img {
+    width: 38px;
+    height: 38px;
+    padding: 8px;
+  }
+
+  /* Weather Icon */
+  .weather-icon {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+  /* Temperature Text */
+  .temprature {
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+
+  /* Location Text */
+  .location {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  /* Humidity + Wind Section */
+  .weather-data {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .weather-data .col {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .weather-data img {
+    width: 38px;
+  }
 }
+
+
+
