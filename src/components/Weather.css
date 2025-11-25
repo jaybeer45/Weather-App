@@ -78,7 +78,7 @@
 }  
 
 /* MOBILE STYLES */
-@media (max-width: 480px) {
+@media (max-width: 720px) {
 
   .weather {
     width: 100%;
